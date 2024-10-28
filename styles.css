@@ -6,11 +6,11 @@ body{
 }
 .book-library{
 	background-color: #ffffff; 
-	border: 1px solid #ddd; 
-	border-radius: 5px; 
-	padding: 10px; 
-	width: 100%; 
-	text-align: center;
+	padding: 20px; 
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+	gap: 20px;
 }
 .book{
 	background-color: #ffffff; 
@@ -19,6 +19,10 @@ body{
 	padding: 1px; 
 	width: 200px; 
 	text-align: center;
+}
+h1{
+	text-align:center;
+	margin: 10px 0;
 }
 h2{
 	font-size: 1.5em; 
